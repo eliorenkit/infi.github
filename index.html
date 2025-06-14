@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marshal Basumatary</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow p-6 flex justify-between items-center">
+    <h1 class="text-3xl font-bold">Marshal Basumatary</h1>
+    <nav class="space-x-4">
+      <a href="#about" class="hover:text-blue-500">About</a>
+      <a href="#projects" class="hover:text-blue-500">Projects</a>
+      <a href="#certificates" class="hover:text-blue-500">Certificates</a>
+      <a href="#contact" class="hover:text-blue-500">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20" id="home">
+    <img src="image\1716058725010.jpeg" alt="Profile" class="mx-auto rounded-full w-40 shadow-lg" data-aos="zoom-in">
+    <h2 class="text-4xl mt-4 font-bold" data-aos="fade-up">Hi, I'm Marshal Basumatary</h2>
+    <p class="text-lg mt-2" data-aos="fade-up" data-aos-delay="200">Instrumentation Engineer Graduated from CITK | B.Tech Holder | Internship at NTPC | Project on PLANT MONITORING SYSTEM AND DISEASE DETECTION USING IOT</p>
+    <a href="resume.pdf" download class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600" data-aos="fade-up" data-aos-delay="400">Download Resume</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 px-4 max-w-4xl mx-auto">
+    <h3 class="text-3xl font-bold mb-6" data-aos="fade-right">About Me</h3>
+    <p data-aos="fade-up">
+      Hey there! I’m [Your Name], a passionate and curious individual with a knack for building, designing, and creating meaningful digital experiences. Whether it's crafting interactive web interfaces, automating systems with microcontrollers, or exploring the intersection of technology and creativity — I'm all in!
+
+💡 I thrive on solving real-world problems through innovative solutions, and I’m constantly learning and experimenting with new tools, frameworks, and ideas.
+
+🛠️ My skill set spans across:
+
+Web Development – HTML, CSS, JavaScript, React, Tailwind, Bootstrap
+
+IoT & Embedded Systems – ESP32, Arduino, sensors, and automation
+
+Machine Learning Basics – Python, image classification, plant health monitoring
+
+UI/UX Design – Love for animations, aesthetics, and smooth user experiences
+
+🌱 Currently working on: integrating IoT with machine learning for smart agriculture solutions.
+
+🚀 My goal? To build tech that empowers people — whether through automation, design, or intelligence.
+
+When I’m not coding or tinkering with circuits, you’ll find me exploring design trends, creating fun side projects, or just listening to a good lo-fi playlist while sketching ideas.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 px-4 bg-white">
+    <h3 class="text-3xl font-bold text-center mb-10" data-aos="fade-up">Projects</h3>
+    <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+      <div class="bg-gray-50 p-6 rounded-lg shadow" data-aos="zoom-in">
+        <h4 class="text-xl font-semibold">Plant Disease Detection</h4>
+        <p class="mt-2">
+Excited to share our final year project that combines IoT and AI for smart agriculture! We developed a system using ESP32-CAM and sensors to monitor temperature, humidity, soil moisture, light, and plant color in real-time. The system also uses a deep learning model to detect plant diseases from captured images.
+
+📌 Key Features:
+
+Real-time monitoring
+
+Disease detection via AI
+
+Web dashboard + LCD display
+
+A step toward smarter, sustainable farming! 🌱</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded-lg shadow" data-aos="zoom-in" data-aos-delay="100">
+        <h4 class="text-xl font-semibold">RFID Attendance System</h4>
+        <p class="mt-2">Built an RFID system with ESP32 + Google Sheets for real-time student attendance tracking.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="py-16 px-4">
+    <h3 class="text-3xl font-bold text-center mb-10" data-aos="fade-up">Certificates</h3>
+    <ul class="list-disc ml-8 space-y-2" data-aos="fade-left">
+      <li>Python for Everybody - Coursera</li>
+      <li>Embedded Systems - NPTEL</li>
+      <li>AI for IoT - Udemy</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-4 bg-gray-200">
+    <h3 class="text-3xl font-bold text-center mb-10" data-aos="fade-up">Contact Me</h3>
+    <form class="max-w-xl mx-auto space-y-4" id="contact-form" data-aos="zoom-in">
+      <input type="text" name="name" placeholder="Your Name" required class="w-full p-2 rounded border" />
+      <input type="email" name="email" placeholder="Your Email" required class="w-full p-2 rounded border" />
+      <textarea name="message" rows="4" placeholder="Your Message" required class="w-full p-2 rounded border"></textarea>
+      <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-4 mt-6 text-sm text-gray-600">
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
